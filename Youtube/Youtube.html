@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0f76431ed3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="Youtube.css" />
+    <title>Youtube</title>
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-list-ul"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <video controls src="video/video.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!-- video info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>jo</li>
+            <li>woo</li>
+            <li>hyuk</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              HTML video 요소는 비디오 플레이백을 지원하는 미디어 플레이어를
+              문서에 삽입합니다. 오디오 콘텐츠에도 사용할 수 있으나, audio
+              요소가 사용자 경험에 좀 더 적합합니다.
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-angle-down"></i>
+            </button>
+          </div>
+          <span class="views">조회수 9.9억회'14시간전</span>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>공유</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-plus"></i><span>오프라...저장</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>저장</span>
+            </button>
+          </li>
+        </ul>
+        <!-- channel -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="img/sample-1.jpg" alt="" />
+            <div class="info">
+              <span class="name">조우혁</span>
+              <span class="subscribers">구독자3234만명</span>
+            </div>
+          </div>
+          <button class="subscribe">구독중</button>
+        </div>
+      </section>
+      <!-- Up Next -->
+      <section class="upNext">
+        <span class="title">다음 동영상</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="img/dog1.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >특성은 이미지의 텍스트 설명이며 필수는 아니지만, 스크린 리더가
+                alt의 값을 읽어 사용자에게 이미지를 설명하므로, 접근성 차원에서
+                매우 유용합니다.
+              </span>
+              <span class="name">조우혁</span>
+              <span class="views">조회수 14만회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="img/dog2.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >특성은 이미지의 텍스트 설명이며 필수는 아니지만, 스크린 리더가
+                alt의 값을 읽어 사용자에게 이미지를 설명하므로, 접근성 차원에서
+                매우 유용합니다.
+              </span>
+              <span class="name">조우혁</span>
+              <span class="views">조회수 14만회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="img/dog3.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >특성은 이미지의 텍스트 설명이며 필수는 아니지만, 스크린 리더가
+                alt의 값을 읽어 사용자에게 이미지를 설명하므로, 접근성 차원에서
+                매우 유용합니다.
+              </span>
+              <span class="name">조우혁</span>
+              <span class="views">조회수 14만회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
