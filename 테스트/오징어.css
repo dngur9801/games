@@ -1,0 +1,215 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.main {
+  background-image: url(img/그림1.png);
+  height: 718px;
+  width: 100%;
+}
+.search_nav {
+  display: flex;
+  height: 86px;
+  width: 1280px;
+  margin: auto;
+}
+.search {
+  width: 300px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 24px;
+}
+.search input {
+  border: none;
+  width: 270px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 980px;
+  line-height: 86px;
+}
+
+.nav li {
+  margin-left: 84px;
+  font-size: 24px;
+}
+.nav li a {
+  color: white;
+}
+
+.main .title {
+  text-align: center;
+  margin-top: 231px;
+}
+
+.main .title h1 {
+  color: #fff;
+  font-size: 48px;
+}
+.main .title p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.about {
+  width: 100%;
+  height: 601px;
+  background-color: #f1f2f3;
+}
+.about .intro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 1280px;
+  margin: auto;
+  top: -66px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about .intro li {
+  flex: 1;
+  height: 132px;
+}
+
+.about .intro li div {
+  text-align: center;
+  height: 57px;
+  margin-top: 37px;
+}
+.about .intro li:not(:last-child) > div {
+  border-right: 1px solid gray;
+}
+.about .intro li span {
+  font-size: 20px;
+}
+.about .intro li h4 {
+  font-size: 24px;
+}
+.about .title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.about .title .sub {
+  font-size: 48px;
+}
+.about .title .sub2 {
+  font-size: 20px;
+}
+
+.about .plan {
+  display: flex;
+
+  width: 1280px;
+  height: 302px;
+  margin: 49px auto 0;
+}
+
+.about .plan li {
+  flex: 1;
+  background-color: white;
+  text-align: center;
+  padding-top: 36px;
+}
+
+.about .plan li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.about .plan li h1 {
+  font-size: 18px;
+}
+.about .plan li div {
+  width: 300px;
+  margin: 8px auto 0;
+}
+
+.about .plan li .more {
+  background-color: #2f7af4;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.service {
+  width: 100%;
+  height: 659px;
+}
+
+.service .logo {
+  text-align: center;
+  margin-top: 50px;
+}
+.service .logo h1 {
+  font-size: 48px;
+}
+.service .logo span {
+  font-size: 20px;
+}
+.service .mon {
+  width: 1280px;
+  height: 427px;
+  display: flex;
+  margin: 49px auto 0;
+}
+
+.service .mon h3 {
+  margin-left: 20px;
+}
+.service .mon p {
+  margin: 26px 0 0 20px;
+}
+
+.contact {
+  width: 100%;
+  height: 418px;
+  background-image: url(img/그림3.png);
+}
+.contact > ul {
+  display: flex;
+}
+.contact > ul > li {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  margin-top: 138px;
+}
+.contact .more2 {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #fff;
+  margin: 30px auto 0;
+}
+.footer {
+  display: flex;
+  width: 100%;
+
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+}
+.footer .logo {
+  flex: 3;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.footer .info {
+  flex: 9;
+}
